@@ -6,4 +6,4 @@ upstream: wei:master
 # previously it was the misconfigured PR route test workflow that rescued downstream changes from being overwritten
 mergeMethod: merge
 mergeUnstable: true # prevent non-pass tests from preventing automatic merge复制代码
-upstream: 按照你原仓库修改
+upstream: .github/workflows/sync.yml
